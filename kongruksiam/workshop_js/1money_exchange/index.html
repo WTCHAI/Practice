@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Transfer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="crypto_container">
+                <div action="" class="searchengine_container">
+                    <label class="head crypto_name">Search Crypto</label>
+                    <div class="search_bar">
+                        <i class="fa-brands fa-searchengin"></i>
+                        <input type="text" class="inp_crypto" id="inp_crypto" placeholder="Search coin">
+                    </div>
+                    
+                    <div class="search_container">
+                        <ul >
+                            <li class="coin_list" ><p class="coin_name">name</p><p class="coin_price">3500</p></li>
+                            <li class="coin_list" ><p class="coin_name">name</p><p class="coin_price">3500</p></li>
+                        </ul>
+                    </div>
+                </div>            
+
+            <div class="fiat_container active">
+                <label class="price" id="price_target">USD Price</label>
+                <input type="text" class="inp_fiat" placeholder="Search fiat">
+                <div class="result_container">
+                    <div class="trans_fiat">
+                        <label for="" class="fiatname"></label>
+                        <h2 class="fiat_result">5000</h2>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
+
+    <!-- axious -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- fontawasome -->
+    <script src="https://kit.fontawesome.com/76e97a4855.js" crossorigin="anonymous"></script>
+    <!-- script -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
